@@ -8,5 +8,5 @@ cp expense.conf /etc/nginx/default.d/expense.conf
 cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
 
-systemctl enable nginx
-systemctl start nginixs
+sudo systemctl enable nginx
+sudo systemctl start nginixs
